@@ -41,7 +41,7 @@
             android:onClick="onClik"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="파일 삭제"
+            android:text="파일 읽기"
             android:id="@+id/button4" />
     </LinearLayout>
 </LinearLayout>
