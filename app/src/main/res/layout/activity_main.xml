@@ -10,4 +10,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ansan.myapplication.MainActivity">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:onClick="onClik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="폴더 생성"
+            android:id="@+id/button" />
+
+        <Button
+            android:onClick="onClik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="폴더 삭제"
+            android:id="@+id/button2" />
+
+        <Button
+            android:onClick="onClik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파일 생성"
+            android:id="@+id/button3" />
+
+        <Button
+            android:onClick="onClik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="파일 삭제"
+            android:id="@+id/button4" />
+    </LinearLayout>
 </LinearLayout>
