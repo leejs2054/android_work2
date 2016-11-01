@@ -17,6 +17,7 @@
         android:layout_gravity="center_horizontal">
 
         <Button
+            android:layout_weight="1"
             android:onClick="onClik"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,6 +25,7 @@
             android:id="@+id/button" />
 
         <Button
+            android:layout_weight="1"
             android:onClick="onClik"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,6 +33,7 @@
             android:id="@+id/button2" />
 
         <Button
+            android:layout_weight="1"
             android:onClick="onClik"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -38,6 +41,7 @@
             android:id="@+id/button3" />
 
         <Button
+            android:layout_weight="1"
             android:onClick="onClik"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,6 +50,7 @@
     </LinearLayout>
 
     <Button
+        android:layout_weight="0"
         android:onClick="onClik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,8 +58,7 @@
         android:id="@+id/button5" />
 
     <EditText
-
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText" />
 </LinearLayout>
